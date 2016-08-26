@@ -1,10 +1,113 @@
-.header {
-
+body{background:black;	overflow-y:scroll;}
+.container {
+	border:3px solid teal;
+	max-width:915px;
+	margin:0 auto;
+	height:auto;
 }
+.satic {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #e1e71b;
+	height: 70px;
+	z-index:-1;
+}
+
+header {
+	
+}
+.cta {
+	padding:10px 27px 0px;
+	max-width:915px;
+	color: #6b7007;
+	
+	&:after {
+		content:'';
+		display:block;
+		clear:both;
+	}
+}
+
+.floatL {
+	float: left;
+    padding: $floatp;
+    width: 49%;
+    clear: left;
+
+	span {
+		text-align:left;
+	}
+
+		button{
+			@include ctaButtons;
+	}
+}
+.floatR {
+	float: right;
+	text-align:right;
+	padding: $floatp;
+	width:43%;
+	clear:right;
+
+	span {
+	text-align:left;
+	}
+
+	button {
+		@include ctaButtons;
+	}
+}
+.mid {
+	border: 1px solid grey;
+    height: 28px;
+    display: inline-block;
+    margin: 1em;
+}
+
+.inline-btns > button {
+	display: inline-block;
+}
+
+.id{
+	padding:10px 27px;
+	border-bottom: 4px solid #87e2d1;
+	background:#fff;
+}
+
+.fr {
+	float: right;
+	clear:both;
+	.call {
+	text-align: right;
+	}
+	&:after {
+		content:'';
+		display:block;
+		clear:both;
+	}
+}
+
 .logo {
-  margin: -58px 0 0 -100px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
+	height:85px;
+	display:inline-block;
+	img {
+	float: left;
+	}
 
-  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

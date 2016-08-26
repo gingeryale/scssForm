@@ -3,16 +3,31 @@
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
 html {
-  font-size: 62.5%;
-  background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);
+  font-size: 14px;
+  // background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);
 }
+
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
-  color: #444;
+  color: #787777;
   transition: all .4s .3s ease-in;
 }
-body,html{
+
+body,html {
 	min-height: 100vh;
 	overflow: hidden;
 }
+
+.inline-r{
+    float: right;
+    clear: both;
+}
+
+.border {
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+}
+
+

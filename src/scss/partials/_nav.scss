@@ -1,10 +1,26 @@
 .nav {
-  ul {
-    list-style: none;
-    li {
-      a {
+	height:36px;
+	background:$teal;
+	width:100%;
 
-      }
+  ul {
+    display: flex;
+    justify-content: space-between;
+  	margin:0;
+    list-style: none;
+    text-align:center;
+    padding: 8px 27px;
     }
-  }
+
+    li {
+      justify-content: space-between;
+    }
+
+      a {
+		text-decoration: none;
+		font-size:1.1em;
+		color:#fff;
+		text-transform:uppercase;
+    }
 }
+

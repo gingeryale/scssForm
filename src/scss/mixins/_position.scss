@@ -1,3 +1,14 @@
+
+@mixin ctaButtons ($margin-left:10px, $bgcolor:$cta-btn,$width:108px,$height:24px) {
+    margin-left:$margin-left;
+    background:$bgcolor;
+    width:$width;
+    height:$height;
+}
+
+
+
+
 @mixin position ($position: relative, $coordinates: 0 0 0 0) {
     @if type-of($position) == list {
         $coordinates: $position;
@@ -36,3 +47,7 @@
         left: $left;
     }
 }
+
+
+
+
