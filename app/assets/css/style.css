@@ -464,17 +464,22 @@ body {
 .id {
   padding: 10px 27px;
   border-bottom: 4px solid #87e2d1;
-  background: #fff; }
+  background: #fff;
+  height: 150px; }
 
 .fr {
   float: right;
   clear: both; }
   .fr .call {
-    text-align: right; }
+    text-align: right;
+    font-size: 1.6em; }
   .fr:after {
     content: '';
     display: block;
     clear: both; }
+
+.bold {
+  font-weight: bold; }
 
 .logo {
   height: 85px;
@@ -537,11 +542,17 @@ main {
   padding-top: 50px;
   padding-bottom: 60px; }
   main .hero {
-    padding: 10px 50px;
+    padding: 0px 50px;
     width: 300px;
     height: 220px; }
-  main h1 {
-    font-weight: 200; }
+    main .hero h1 {
+      font-weight: 200;
+      font-size: 2.5em; }
+    main .hero p {
+      width: 250px;
+      font-size: 1.25em;
+      margin: 0px;
+      padding: 0px; }
   main .form-inputs {
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -553,43 +564,6 @@ main {
     margin-bottom: 30px; }
   main .pushR {
     float: right; }
-  main .radioR input {
-    margin-left: 20px; }
-  main .colf textarea, main .colf > select {
-    display: block;
-    width: 520px;
-    height: 40px;
-    background: #fff; }
-  main .colf:after {
-    display: block;
-    content: '';
-    clear: both;
-    margin-bottom: 30px; }
-  main .col1 {
-    display: inline-block; }
-  main .col1 input, main select {
-    width: 250px;
-    height: 40px;
-    border: 1px solid #e8e8e8;
-    border-radius: 3;
-    background: #fff; }
-  main .col1:after {
-    display: block;
-    content: '';
-    clear: both;
-    margin-bottom: 30px; }
-  main .col2 {
-    float: right; }
-  main .col2 input, main select {
-    width: 250px;
-    height: 40px;
-    border: 1px solid #e8e8e8;
-    border-radius: 3; }
-  main .col2:after {
-    display: block;
-    content: '';
-    clear: both;
-    margin-bottom: 30px; }
   main .gmap {
     float: right;
     width: 282px;
@@ -601,15 +575,6 @@ main {
     padding-top: 30px;
     font-size: 0.85em;
     line-height: 1.5em; }
-  main input[placeholder] {
-    color: grey;
-    padding-left: 10px; }
-  main input, main textarea {
-    border: 1px solid lightgrey; }
-  main input[type="radio"] {
-    margin-right: 3px; }
-  main label:first-of-type {
-    margin-right: 25px; }
 
 .footer {
   height: 67px;
@@ -646,6 +611,49 @@ button {
   height: 40px;
   border-radius: 5px;
   background: #47c8ab; }
+
+input[type="text"], textarea, select {
+  border: 1px solid #e8e8e8;
+  width: 250px;
+  height: 40px;
+  border-radius: 3;
+  background: #fff; }
+
+input[type="radio"] {
+  margin-right: 3px;
+  margin-left: 20px;
+  border: 1px solid #47c8ab; }
+
+label:first-of-type {
+  margin-right: 25px; }
+
+input[placeholder], textarea[placeholder] {
+  color: grey;
+  padding-left: 10px; }
+
+.colf textarea, .colf select {
+  display: block;
+  width: 520px;
+  height: 40px;
+  background: #fff; }
+
+.colf:after {
+  display: block;
+  content: '';
+  clear: both;
+  margin-bottom: 30px; }
+
+.col1 {
+  display: inline-block; }
+
+.col1:after, .col2:after {
+  display: block;
+  content: '';
+  clear: both;
+  margin-bottom: 30px; }
+
+.col2 {
+  float: right; }
 
 @font-face {
   font-family: 'Font-Name';

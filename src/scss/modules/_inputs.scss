@@ -1,0 +1,44 @@
+
+input[type="text"], textarea, select{
+	border:1px solid #e8e8e8;
+	width: 250px;
+	height:40px;
+	border-radius:3;
+	background: #fff;
+}
+input[type="radio"] {
+	margin-right:3px;
+	margin-left:20px;
+	border:1px solid $teal;
+}
+label:first-of-type {
+	margin-right:25px;
+}
+input[placeholder], textarea[placeholder] { 
+	color: grey;
+	padding-left: 10px;
+}
+.colf textarea, .colf select{
+	display:block;
+	width: 520px;
+	height:40px;
+	background: #fff;
+}
+.colf:after{
+	display:block;
+	content:'';
+	clear:both;
+	margin-bottom:30px;
+}
+.col1 {
+	display: inline-block;
+}
+.col1:after, .col2:after{
+	display:block;
+	content:'';
+	clear:both;
+	margin-bottom:30px;
+}
+.col2 {
+	float:right;
+}

@@ -25,17 +25,24 @@
 
 main {
 		background: #fbfbfb url('../../assets/img/iv/hero-bg.png') no-repeat;
-		margin-top:0px;
-		padding-top:50px;
-		padding-bottom:60px;
+		margin-top: 0px;
+		padding-top: 50px;
+		padding-bottom: 60px;
 		.hero {
-			padding: 10px 50px;
-			width:300px;
-			height:220px;
-		}
-		h1 {
+			padding: 0px 50px;
+			width: 300px;
+			height: 220px;
+			h1 {
 			font-weight: 200;
-		}
+			font-size:2.5em;
+			}
+			p {
+			width:250px;
+			font-size: 1.25em;
+			margin: 0px;
+			padding:0px;
+			}
+		}		
 		.form-inputs {
 			display: inline-flex;
 		}
@@ -49,52 +56,7 @@ main {
 		.pushR {
 			float: right;
 		}
-		.radioR input {
-			margin-left:20px;
-		}
-		.colf textarea, .colf > select{
-			display:block;
-			width: 520px;
-			height:40px;
-			background: #fff;
-		}
-		.colf:after{
-			display:block;
-			content:'';
-			clear:both;
-			margin-bottom:30px;
-		}
-		.col1 {
-			display: inline-block;
-		}
-		.col1 input, select {
-			width: 250px;
-			height:40px;
-			border:1px solid #e8e8e8;
-			border-radius:3;
-			background: #fff;
-		}
-		.col1:after{
-			display:block;
-			content:'';
-			clear:both;
-			margin-bottom:30px;
-		}
-		.col2 {
-			float:right;
-		}
-		.col2 input, select{
-			width: 250px;
-			height:40px;
-			border:1px solid #e8e8e8;
-			border-radius:3;
-		}
-		.col2:after{
-			display:block;
-			content:'';
-			clear:both;
-			margin-bottom:30px;
-		}
+		
 		.gmap{
 			float:right;
 			width: 282px;
@@ -109,20 +71,6 @@ main {
 			font-size:0.85em;
 			line-height:1.5em;
 		}
-		input[placeholder] { 
-			color: grey;
-			padding-left: 10px;
-		}
-		input, textarea{
-			border:1px solid lightgrey;
-		}
-		input[type="radio"] {
-			margin-right:3px;
-		}
-		label:first-of-type {
-			margin-right:25px;
-		}
-
 }
 
 

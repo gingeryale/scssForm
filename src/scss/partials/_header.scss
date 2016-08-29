@@ -68,11 +68,11 @@ header {
 .inline-btns > button {
 	display: inline-block;
 }
-
 .id{
 	padding:10px 27px;
 	border-bottom: 4px solid #87e2d1;
 	background:#fff;
+	height:150px;
 }
 
 .fr {
@@ -80,12 +80,16 @@ header {
 	clear:both;
 	.call {
 	text-align: right;
+	font-size:1.6em;
 	}
 	&:after {
 		content:'';
 		display:block;
 		clear:both;
 	}
+}
+.bold{
+	font-weight:bold;
 }
 
 .logo {
