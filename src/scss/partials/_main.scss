@@ -26,6 +26,8 @@
 main {
 		background: #fbfbfb url('../../assets/img/iv/hero-bg.png') no-repeat;
 		margin-top:0px;
+		padding-top:50px;
+		padding-bottom:60px;
 		.hero {
 			padding: 10px 50px;
 			width:300px;
@@ -39,7 +41,7 @@ main {
 		}
 		.formL {
 				    max-width: 520px;
-    				margin: 50px 0px 0 45px;
+    				margin: 0px 0px 0px 45px;
 			}
 			.blocktext {
 				margin-bottom:30px;
@@ -50,14 +52,27 @@ main {
 		.radioR input {
 			margin-left:20px;
 		}
+		.colf textarea, .colf > select{
+			display:block;
+			width: 520px;
+			height:40px;
+			background: #fff;
+		}
+		.colf:after{
+			display:block;
+			content:'';
+			clear:both;
+			margin-bottom:30px;
+		}
 		.col1 {
 			display: inline-block;
 		}
-		.col1 input {
+		.col1 input, select {
 			width: 250px;
 			height:40px;
 			border:1px solid #e8e8e8;
 			border-radius:3;
+			background: #fff;
 		}
 		.col1:after{
 			display:block;
@@ -68,7 +83,7 @@ main {
 		.col2 {
 			float:right;
 		}
-		.col2 input{
+		.col2 input, select{
 			width: 250px;
 			height:40px;
 			border:1px solid #e8e8e8;
@@ -80,33 +95,33 @@ main {
 			clear:both;
 			margin-bottom:30px;
 		}
-		.colf input{
-			display:block;
-			width: 520px;
-			height:40px;
-		}
-		.colf:after{
-			display:block;
-			content:'';
-			clear:both;
-			margin-bottom:30px;
-		}
 		.gmap{
 			float:right;
 			width: 282px;
 			margin-right: 28px;
-			padding-top:50px;
-		}
-		.bbtn{
-			width:90px;
-			height:40px;
-			border-radius:5px;
-			background:$teal;
 		}
 		.googleMap{
 			border:1px solid lightgrey;
 		}
-
+		p {
+			width:520px;
+			padding-top:30px;
+			font-size:0.85em;
+			line-height:1.5em;
+		}
+		input[placeholder] { 
+			color: grey;
+			padding-left: 10px;
+		}
+		input, textarea{
+			border:1px solid lightgrey;
+		}
+		input[type="radio"] {
+			margin-right:3px;
+		}
+		label:first-of-type {
+			margin-right:25px;
+		}
 
 }
 
