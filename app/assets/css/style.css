@@ -416,6 +416,9 @@ body {
   height: 70px;
   z-index: -1; }
 
+.teal {
+  color: #47c8ab; }
+
 .cta {
   padding: 10px 27px 0px;
   max-width: 915px;
@@ -483,7 +486,8 @@ body {
 
 .logo {
   height: 85px;
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 25px; }
   .logo img {
     float: left; }
 
@@ -539,7 +543,7 @@ body {
 main {
   background: #fbfbfb url("../../assets/img/iv/hero-bg.png") no-repeat;
   margin-top: 0px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 60px; }
   main .hero {
     padding: 0px 50px;
@@ -631,11 +635,20 @@ input[placeholder], textarea[placeholder] {
   color: grey;
   padding-left: 10px; }
 
-.colf textarea, .colf select {
-  display: block;
+.col1 {
+  display: inline-block; }
+  .col1:after {
+    display: block;
+    content: '';
+    clear: both;
+    margin-bottom: 30px; }
+
+.colf textarea {
   width: 520px;
-  height: 40px;
-  background: #fff; }
+  height: 75px; }
+
+.colf select {
+  width: 520px; }
 
 .colf:after {
   display: block;
@@ -643,17 +656,13 @@ input[placeholder], textarea[placeholder] {
   clear: both;
   margin-bottom: 30px; }
 
-.col1 {
-  display: inline-block; }
-
-.col1:after, .col2:after {
-  display: block;
-  content: '';
-  clear: both;
-  margin-bottom: 30px; }
-
 .col2 {
   float: right; }
+  .col2:after {
+    display: block;
+    content: '';
+    clear: both;
+    margin-bottom: 30px; }
 
 @font-face {
   font-family: 'Font-Name';

@@ -17,6 +17,9 @@ body{background:black;	overflow-yx:scroll;}
 header {
 	
 }
+.teal {
+		color:$teal
+}
 .cta {
 	padding:10px 27px 0px;
 	max-width:915px;
@@ -68,7 +71,7 @@ header {
 .inline-btns > button {
 	display: inline-block;
 }
-.id{
+.id {
 	padding:10px 27px;
 	border-bottom: 4px solid #87e2d1;
 	background:#fff;
@@ -88,17 +91,17 @@ header {
 		clear:both;
 	}
 }
-.bold{
+.bold {
 	font-weight:bold;
 }
 
 .logo {
 	height:85px;
 	display:inline-block;
+	padding-top: 25px;
 	img {
 	float: left;
 	}
-
 }
 
 

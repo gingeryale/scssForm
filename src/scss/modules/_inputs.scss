@@ -18,27 +18,41 @@ input[placeholder], textarea[placeholder] {
 	color: grey;
 	padding-left: 10px;
 }
-.colf textarea, .colf select{
-	display:block;
-	width: 520px;
-	height:40px;
-	background: #fff;
-}
-.colf:after{
-	display:block;
-	content:'';
-	clear:both;
-	margin-bottom:30px;
-}
+
+
 .col1 {
 	display: inline-block;
+	&:after {
+	display: block;
+	content: '';
+	clear: both;
+	margin-bottom: 30px;
+	}
+
 }
-.col1:after, .col2:after{
-	display:block;
-	content:'';
-	clear:both;
-	margin-bottom:30px;
+
+.colf {
+	textarea {
+	width: 520px;
+	height:75px;
+	}
+	select {
+	width: 520px;
+	}
+	&:after{
+	display: block;
+	content: '';
+	clear: both;
+	margin-bottom: 30px;
+	}
 }
+
 .col2 {
 	float:right;
+	&:after {
+	display: block;
+	content: '';
+	clear:both;
+	margin-bottom: 30px;
+	}
 }
