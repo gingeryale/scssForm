@@ -22,7 +22,7 @@ body {
 
 body, html {
   min-height: 100vh;
-  overflow: hidden; }
+  /*overflow: hidden;*/ }
 
 .inline-r {
   float: right;
@@ -400,7 +400,7 @@ textarea {
 
 body {
   background: black;
-  overflow-y: scroll; }
+  overflow-yx: scroll; }
 
 .container {
   border: 3px solid teal;
@@ -545,8 +545,8 @@ main {
     display: -ms-inline-flexbox;
     display: inline-flex; }
   main .formL {
-    width: 610px;
-    padding: 50px 40px 0px 45px; }
+    width: 600px;
+    padding: 50px 35px 0 45px; }
   main .blocktext {
     margin-bottom: 30px; }
   main .pushR {
