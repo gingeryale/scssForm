@@ -403,7 +403,7 @@ body {
   overflow-yx: scroll; }
 
 .container {
-  border: 3px solid teal;
+  border: 3px solid #47c8ab;
   max-width: 915px;
   margin: 0 auto;
   height: auto; }
@@ -489,7 +489,122 @@ body {
   display: inline-block;
   padding-top: 25px; }
   .logo img {
-    float: left; }
+    float: left;
+    background-image: url("../app/assets/img/iv/logo.png"); }
+
+/* 440 break-point */
+@media (max-width: 440px) {
+  .container {
+    border: 3px solid #47c8ab;
+    max-width: 440px;
+    margin: 0 auto;
+    height: auto; }
+  .satic {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #e1e71b;
+    height: 150px;
+    z-index: -1; }
+  .cta {
+    padding: 0px 27px 0px;
+    color: #6b7007; }
+    .cta:after {
+      content: '';
+      display: block;
+      clear: both; }
+    .cta .floatL {
+      float: left;
+      padding: 15px 0px;
+      width: 49%;
+      clear: left; }
+      .cta .floatL span {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px; }
+      .cta .floatL button {
+        margin: 0 auto;
+        background: #a8ae00;
+        width: 108px;
+        height: 24px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+    .cta .floatR {
+      float: right;
+      text-align: right;
+      padding: 15px 0px;
+      width: 43%;
+      clear: right; }
+      .cta .floatR span {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px; }
+      .cta .floatR button {
+        margin: 0 auto;
+        background: #a8ae00;
+        width: 108px;
+        height: 24px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+    .cta .mid {
+      border: 1px solid #cad306;
+      width: 1px;
+      height: 60px;
+      display: inline-block;
+      margin: 1.5em 1em 0em; }
+    .cta .inline-btns > button {
+      display: inline-block; }
+  .id {
+    padding: 0px 0px;
+    border-bottom: 4px solid #87e2d1;
+    background: #fff;
+    height: 150px; }
+  .fr {
+    float: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #47c8ab;
+    color: #fff; }
+    .fr .call {
+      text-align: center;
+      font-size: 1.2em; }
+      .fr .call .inline-btns {
+        display: none; }
+    .fr:after {
+      content: '';
+      display: block;
+      clear: both; }
+  .bold {
+    font-weight: normal; }
+  .logo {
+    height: 85px;
+    display: block;
+    padding-top: 0px; }
+    .logo img {
+      float: none;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background: url("../app/assets/img/iv/logo-mobile.png"); } }
 
 .nav {
   height: 36px;

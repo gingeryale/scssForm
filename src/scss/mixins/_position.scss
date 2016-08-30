@@ -6,6 +6,16 @@
     height:$height;
 }
 
+    
+
+@mixin ctaButtonsM ($margin:0 auto, $bgcolor:$cta-btn,$width:108px,$height:24px,$display:flex,$justify-content:center) {
+    margin:$margin;
+    background:$bgcolor;
+    width:$width;
+    height:$height;
+    display:$display;
+    justify-content:$justify-content;
+}
 
 
 

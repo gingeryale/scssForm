@@ -1,6 +1,6 @@
 body{background:black;	overflow-yx:scroll;}
 .container {
-	border:3px solid teal;
+	border:3px solid $teal;
 	max-width:915px;
 	margin:0 auto;
 	height:auto;
@@ -101,7 +101,133 @@ header {
 	padding-top: 25px;
 	img {
 	float: left;
+	background-image:url('../app/assets/img/iv/logo.png');
+
 	}
+}
+
+
+/* 440 break-point */
+@media (max-width: 440px) {
+	
+	.container {
+	border:3px solid $teal;
+	max-width:440px;
+	margin:0 auto;
+	height:auto;
+	}
+	.satic {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		background: #e1e71b;
+		height: 150px;
+		z-index:-1;
+	}
+
+	header {
+		
+	}
+
+	.cta {
+		padding:0px 27px 0px;
+		color: #6b7007;
+		
+		&:after {
+			content:'';
+			display:block;
+			clear:both;
+		}
+			.floatL {
+			float: left;
+		    padding: $floatp;
+		    width: 49%;
+		    clear: left;
+
+			span {
+				display:flex;
+				text-align:center;
+			    margin-bottom:10px;
+
+			}
+			button{
+				@include ctaButtonsM;
+				}
+			}
+			.floatR {
+				float: right;
+				text-align:right;
+				padding: $floatp;
+				width:43%;
+				clear:right;
+
+				span {
+				display:flex;
+				text-align:center;
+			    margin-bottom:10px;
+
+				}
+
+				button {
+					@include ctaButtonsM;
+				}
+			}
+		.mid {
+			border: 1px solid #cad306;
+			width:1px;
+		    height: 60px;
+		    display: inline-block;
+		    margin: 1.5em 1em 0em;
+		}
+
+		.inline-btns > button {
+			display: inline-block;
+		}
+	}
+
+	.id {
+		padding:0px 0px;
+		border-bottom: 4px solid #87e2d1;
+		background:#fff;
+		height:150px;
+	}
+
+	.fr {
+		float:none;
+		display:flex;
+		justify-content:center;
+		background:$teal;
+		color:#fff;
+
+		.call {
+		text-align: center;
+		font-size:1.2em;
+		.inline-btns {
+			display:none;
+			}
+		}
+		&:after {
+			content:'';
+			display:block;
+			clear:both;
+		}
+	}
+	.bold {
+		font-weight:normal;
+	}
+
+	.logo {
+		height:85px;
+		display:block;
+		padding-top: 0px;
+		img {
+		float: none;
+		display:flex;
+		justify-content:center;
+		background:url('../app/assets/img/iv/logo-mobile.png');
+		}
+	}
+  
 }
 
 
