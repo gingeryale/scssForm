@@ -61,9 +61,14 @@ main {
 			float:right;
 			width: 282px;
 			margin-right: 28px;
+			.teal {
+			font-size: 1.3em;
+			font-weight:400;
+		}
 		}
 		.googleMap{
-			border:1px solid lightgrey;
+			/*border:1px solid lightgrey;*/
+			margin-top:25px;
 		}
 		p {
 			width:520px;

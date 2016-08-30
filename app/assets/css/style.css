@@ -572,8 +572,12 @@ main {
     float: right;
     width: 282px;
     margin-right: 28px; }
+    main .gmap .teal {
+      font-size: 1.3em;
+      font-weight: 400; }
   main .googleMap {
-    border: 1px solid lightgrey; }
+    /*border:1px solid lightgrey;*/
+    margin-top: 25px; }
   main p {
     width: 520px;
     padding-top: 30px;
@@ -629,7 +633,7 @@ input[type="radio"] {
   border: 1px solid #47c8ab; }
 
 label:first-of-type {
-  margin-right: 25px; }
+  margin-right: 15px; }
 
 input[placeholder], textarea[placeholder] {
   color: grey;

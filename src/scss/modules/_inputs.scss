@@ -1,18 +1,18 @@
 
 input[type="text"], textarea, select{
-	border:1px solid #e8e8e8;
+	border: 1px solid #e8e8e8;
 	width: 250px;
-	height:40px;
+	height: 40px;
 	border-radius:3;
 	background: #fff;
 }
 input[type="radio"] {
-	margin-right:3px;
-	margin-left:20px;
-	border:1px solid $teal;
+	margin-right: 3px;
+	margin-left: 20px;
+	border: 1px solid $teal;
 }
 label:first-of-type {
-	margin-right:25px;
+	margin-right: 15px;
 }
 input[placeholder], textarea[placeholder] { 
 	color: grey;
@@ -34,7 +34,7 @@ input[placeholder], textarea[placeholder] {
 .colf {
 	textarea {
 	width: 520px;
-	height:75px;
+	height: 75px;
 	}
 	select {
 	width: 520px;
