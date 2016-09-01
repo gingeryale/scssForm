@@ -11,7 +11,6 @@
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
     <link href="assets/css/style.min.css" rel="stylesheet">
- 
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -38,9 +37,19 @@
         </div>
         <div class="fl logo">
           <a href="/">
-            <img src="assets/img/iv/logo.png" alt="Logo">
+            <!--<img src="assets/img/iv/logo.png" alt="Logo">-->
+            <img alt="logo" 
+            src="assets/img/iv/logo-mobile.png" 
+            srcset="assets/img/iv/logo-mobile.png 600w, 
+            assets/img/iv/logo.png 700w"> 
+   
           </a>
         </div>
+         <div id="mobile-nav">
+            <a href="#menu" class="box-shadow-menu">
+              <p>Menu</p>
+            </a>
+          </div>
 
         
       </div><!-- end identity section-->
@@ -71,8 +80,7 @@
           </li>
         </ul>
         </nav>
-
-      </header>
+     </header>
 
     <main class="main" role="main">
       <div class="hero">
@@ -163,8 +171,11 @@
 </div><!-- end page container -->
     <script src="assets/components/jquery/jquery.min.js"></script>
     <script src="assets/js/scripts.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-
+    <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+  </script>
   </body>
 </html>

@@ -419,6 +419,9 @@ body {
 .teal {
   color: #47c8ab; }
 
+.mobile-nav {
+  display: none; }
+
 .cta {
   padding: 10px 27px 0px;
   max-width: 915px;
@@ -490,7 +493,7 @@ body {
   padding-top: 25px; }
   .logo img {
     float: left;
-    background-image: url("../app/assets/img/iv/logo.png"); }
+    background-image: url("../../app/assets/img/iv/logo.png"); }
 
 /* 440 break-point */
 @media (max-width: 440px) {
@@ -584,27 +587,33 @@ body {
     .fr .call {
       text-align: center;
       font-size: 1.2em; }
-      .fr .call .inline-btns {
-        display: none; }
     .fr:after {
       content: '';
       display: block;
       clear: both; }
+    .fr .inline-btns {
+      border: 1px solid #cad306;
+      display: none; }
   .bold {
     font-weight: normal; }
   .logo {
     height: 85px;
-    display: block;
-    padding-top: 0px; }
+    padding: 20px 0px 0px 25px; }
     .logo img {
-      float: none;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center;
-      background: url("../app/assets/img/iv/logo-mobile.png"); } }
+      width: 70%;
+      background: url("../app/assets/img/iv/logo-mobile.png"); }
+    .logo:after {
+      display: block;
+      clear: both; } }
 
 .nav {
   height: 36px;
@@ -630,6 +639,26 @@ body {
     font-size: 1.1em;
     color: #fff;
     text-transform: uppercase; }
+
+@media (max-width: 440px) {
+  .nav {
+    display: none; }
+  #mobile-nav {
+    display: inline-block;
+    float: right;
+    border: 1px solid green; }
+  .box-shadow-menu {
+    position: relative;
+    padding-left: 1.25em; }
+  .box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    width: 1em;
+    height: 0.15em;
+    background: black;
+    box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black; } }
 
 /*main.main {
 	margin:0;

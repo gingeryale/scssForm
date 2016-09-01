@@ -20,6 +20,9 @@ header {
 .teal {
 		color:$teal
 }
+.mobile-nav {
+	display:none;
+}
 .cta {
 	padding:10px 27px 0px;
 	max-width:915px;
@@ -101,7 +104,7 @@ header {
 	padding-top: 25px;
 	img {
 	float: left;
-	background-image:url('../app/assets/img/iv/logo.png');
+	background-image:url('../../app/assets/img/iv/logo.png');
 
 	}
 }
@@ -202,29 +205,34 @@ header {
 		.call {
 		text-align: center;
 		font-size:1.2em;
-		.inline-btns {
-			display:none;
-			}
 		}
 		&:after {
 			content:'';
 			display:block;
 			clear:both;
 		}
+		.inline-btns {
+			border: 1px solid #cad306;
+			display:none;
+			}
 	}
 	.bold {
 		font-weight:normal;
 	}
 
 	.logo {
-		height:85px;
-		display:block;
-		padding-top: 0px;
+		height: 85px;
+		padding: 20px 0px 0px 25px;
 		img {
-		float: none;
-		display:flex;
-		justify-content:center;
-		background:url('../app/assets/img/iv/logo-mobile.png');
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:70%;
+		background: url('../app/assets/img/iv/logo-mobile.png');
+		}
+		&:after{
+			display:block;
+			clear:both;
 		}
 	}
   
