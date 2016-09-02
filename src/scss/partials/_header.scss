@@ -1,4 +1,8 @@
 body{background:black;	overflow-yx:scroll;}
+
+#mobile-nav {
+	display:none;
+}
 .container {
 	border:3px solid $teal;
 	max-width:915px;
@@ -19,9 +23,6 @@ header {
 }
 .teal {
 		color:$teal
-}
-.mobile-nav {
-	display:none;
 }
 .cta {
 	padding:10px 27px 0px;
@@ -104,6 +105,7 @@ header {
 	padding-top: 25px;
 	img {
 	float: left;
+	width:326px;
 	background-image:url('../../app/assets/img/iv/logo.png');
 
 	}
@@ -222,12 +224,12 @@ header {
 
 	.logo {
 		height: 85px;
-		padding: 20px 0px 0px 25px;
+		padding: 10px 0px 0px 25px;
 		img {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width:70%;
+		width:218px;
 		background: url('../app/assets/img/iv/logo-mobile.png');
 		}
 		&:after{

@@ -56,3 +56,37 @@ input[placeholder], textarea[placeholder] {
 	margin-bottom: 30px;
 	}
 }
+
+
+
+
+
+
+
+@media (max-width: 440px) {
+	.col1 {
+	display: block;
+	width:400px;
+	}
+	.col2 {
+	float:none;
+	}
+	.colf {
+		textarea {
+		width: 400px;
+		height: 75px;
+		}
+		select {
+		width: 400px;
+		}
+	}
+	input[type="text"], textarea, select{
+	border: 1px solid #e8e8e8;
+	width: 400px;
+	}
+}
+
+
+
+
+

@@ -29,9 +29,10 @@
     display:none;
   }
   #mobile-nav {
-  display:inline-block;
-  float:right;
-  border:1px solid green;
+  display: inline-block;
+  float: right;
+  margin-right: 45px;
+  border: 1px solid green;
   }
   .box-shadow-menu {
   position: relative;
@@ -39,15 +40,13 @@
   }
   .box-shadow-menu:before {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 0.25em;
-  width: 1em;
-  height: 0.15em;
-  background: black;
-  box-shadow: 
-    0 0.25em 0 0 black,
-    0 0.5em 0 0 black;
-  }
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 0.5em;
+    background: #000;
+    box-shadow: 0 1.15em 0 0 #000,0 2.3em 0 0 #000;
+    }
 
 }
