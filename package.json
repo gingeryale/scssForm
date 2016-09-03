@@ -2,12 +2,12 @@
   "name": "fastshell",
   "title": "Fiercely quick and opinionated front-ends",
   "author": "Hossein Karami",
-  "url": "https://HosseinKarami.github.io/fastshell",
+  "url": "",
   "version": "1.0.5",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
+    "url": ""
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
