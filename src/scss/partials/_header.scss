@@ -1,7 +1,11 @@
 body{background:black;	overflow-yx:scroll;}
+
+#mobile-nav {
+	display:none;
+}
 .container {
-	border:3px solid $teal;
-	max-width:915px;
+	/*border:3px solid $teal;*/
+	width:915px;
 	margin:0 auto;
 	height:auto;
 }
@@ -19,9 +23,6 @@ header {
 }
 .teal {
 		color:$teal
-}
-.mobile-nav {
-	display:none;
 }
 .cta {
 	padding:10px 27px 0px;
@@ -104,6 +105,7 @@ header {
 	padding-top: 25px;
 	img {
 	float: left;
+	width:326px;
 	background-image:url('../../app/assets/img/iv/logo.png');
 
 	}
@@ -113,17 +115,13 @@ header {
 /* 440 break-point */
 @media (max-width: 440px) {
 	
+	
 	.container {
-	border:3px solid $teal;
-	max-width:440px;
-	margin:0 auto;
-	height:auto;
+	border:1px solid $teal;
+	width:440px;
 	}
 	.satic {
-		position: absolute;
-		top: 0;
-		width: 100%;
-		background: #e1e71b;
+		width: 440px;
 		height: 150px;
 		z-index:-1;
 	}
@@ -189,50 +187,50 @@ header {
 	}
 
 	.id {
-		padding:0px 0px;
-		border-bottom: 4px solid #87e2d1;
-		background:#fff;
-		height:150px;
+		padding: 0px 0px;
+		border-bottom: 0px;
+		background: #fff;
+		height: 150px;
 	}
 
 	.fr {
-		float:none;
-		display:flex;
-		justify-content:center;
-		background:$teal;
-		color:#fff;
+		float: none;
+		display: flex;
+		justify-content: center;
+		background: $teal;
+		color: #fff;
 
 		.call {
 		text-align: center;
-		font-size:1.2em;
+		font-size: 1.2em;
 		}
 		&:after {
 			content:'';
-			display:block;
-			clear:both;
+			display: block;
+			clear: both;
 		}
 		.inline-btns {
 			border: 1px solid #cad306;
-			display:none;
+			display: none;
 			}
 	}
 	.bold {
-		font-weight:normal;
+		font-weight: normal;
 	}
 
 	.logo {
 		height: 85px;
-		padding: 20px 0px 0px 25px;
+		padding: 10px 0px 0px 25px;
 		img {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width:70%;
+		width: 218px;
 		background: url('../app/assets/img/iv/logo-mobile.png');
 		}
 		&:after{
-			display:block;
-			clear:both;
+			display: block;
+			clear: both;
 		}
 	}
   

@@ -23,5 +23,12 @@ button {
 	width:90px;
 	height:40px;
 	border-radius:5px;
-	background: $teal;
+	background: $lightteal;
+}
+
+@media (max-width: 440px) {
+	.large-btn{
+		width:400px;
+		height:52px;
+	}
 }
