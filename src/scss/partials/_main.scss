@@ -57,13 +57,13 @@ main {
 
 @media (max-width: 440px) {
 			
-			main {
-		background: #fff url('../../assets/img/iv/hero-bg-mobile.png') no-repeat;
-		padding-bottom: 0px;
+		main {
+			background: url('../../assets/img/iv/hero-bg-mobile.png') center space #fff;
+			padding-bottom: 0px;
 		.hero {
 			padding: 0px 50px;
 			width: 300px;
-			height: 170px;
+			height: 145px;
 			h1 {
 			font-weight: 200;
 			font-size:2em;
@@ -100,9 +100,10 @@ main {
 		
 		.gmap{
 			padding:25px 20px;
-			width: 400px;
+			width: 100%;
 			float:none;
 			margin-right:0px;
+			background: #fff;
 			.teal {
 				font-size: 1.3em;
 				font-weight:400;

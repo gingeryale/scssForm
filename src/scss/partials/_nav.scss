@@ -32,7 +32,10 @@
   display: inline-block;
   float: right;
   margin-right: 45px;
-  border: 1px solid green;
+  margin-top:20px;
+  ul{
+    display:none;
+    }
   }
   .box-shadow-menu {
   position: relative;
@@ -45,8 +48,8 @@
     top: 0;
     width: 30px;
     height: 0.5em;
-    background: #000;
-    box-shadow: 0 1.15em 0 0 #000,0 2.3em 0 0 #000;
+    background: #787777;
+    box-shadow: 0 1.15em 0 0 #787777,0 2.3em 0 0 #787777;
     }
 
 }

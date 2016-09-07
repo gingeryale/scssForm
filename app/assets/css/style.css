@@ -643,7 +643,9 @@ body {
     display: inline-block;
     float: right;
     margin-right: 45px;
-    border: 1px solid green; }
+    margin-top: 20px; }
+    #mobile-nav ul {
+      display: none; }
   .box-shadow-menu {
     position: relative;
     padding-left: 1.25em; }
@@ -654,8 +656,8 @@ body {
     top: 0;
     width: 30px;
     height: 0.5em;
-    background: #000;
-    box-shadow: 0 1.15em 0 0 #000,0 2.3em 0 0 #000; } }
+    background: #787777;
+    box-shadow: 0 1.15em 0 0 #787777,0 2.3em 0 0 #787777; } }
 
 main {
   background: #fbfbfb url("../../assets/img/iv/hero-bg.png") no-repeat;
@@ -702,12 +704,12 @@ main {
 
 @media (max-width: 440px) {
   main {
-    background: #fff url("../../assets/img/iv/hero-bg-mobile.png") no-repeat;
+    background: url("../../assets/img/iv/hero-bg-mobile.png") center space #fff;
     padding-bottom: 0px; }
     main .hero {
       padding: 0px 50px;
       width: 300px;
-      height: 170px; }
+      height: 145px; }
       main .hero h1 {
         font-weight: 200;
         font-size: 2em; }
@@ -741,9 +743,10 @@ main {
       margin-top: 20px; }
     main .gmap {
       padding: 25px 20px;
-      width: 400px;
+      width: 100%;
       float: none;
-      margin-right: 0px; }
+      margin-right: 0px;
+      background: #fff; }
       main .gmap .teal {
         font-size: 1.3em;
         font-weight: 400; }
