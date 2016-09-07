@@ -1,9 +1,9 @@
 
-input[type="text"], textarea, select{
+input[type="text"], textarea, select {
 	border: 1px solid #e8e8e8;
 	width: 250px;
 	height: 40px;
-	border-radius:3;
+	border-radius:3px;
 	background: #fff;
 }
 input[type="radio"] {
@@ -14,8 +14,8 @@ input[type="radio"] {
 label:first-of-type {
 	margin-right: 15px;
 }
-input[placeholder], textarea[placeholder] { 
-	color: grey;
+input[placeholder], textarea[placeholder], select { 
+	color: gray;
 	padding-left: 10px;
 }
 
@@ -28,7 +28,6 @@ input[placeholder], textarea[placeholder] {
 	clear: both;
 	margin-bottom: 30px;
 	}
-
 }
 
 .colf {
@@ -37,7 +36,7 @@ input[placeholder], textarea[placeholder] {
 	height: 75px;
 	}
 	select {
-	width: 520px;
+	width: 520px;	
 	}
 	&:after{
 	display: block;
@@ -87,7 +86,7 @@ input[placeholder], textarea[placeholder] {
 			width: 400px;
 		}
 	}
-	input[type="text"], textarea, select{
+	input[type="text"], textarea, select {
 	border: 1px solid #e8e8e8;
 	width: 400px;
 	}

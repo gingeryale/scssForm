@@ -814,7 +814,7 @@ input[type="text"], textarea, select {
   border: 1px solid #e8e8e8;
   width: 250px;
   height: 40px;
-  border-radius: 3;
+  border-radius: 3px;
   background: #fff; }
 
 input[type="radio"] {
@@ -825,8 +825,8 @@ input[type="radio"] {
 label:first-of-type {
   margin-right: 15px; }
 
-input[placeholder], textarea[placeholder] {
-  color: grey;
+input[placeholder], textarea[placeholder], select {
+  color: gray;
   padding-left: 10px; }
 
 .col1 {
